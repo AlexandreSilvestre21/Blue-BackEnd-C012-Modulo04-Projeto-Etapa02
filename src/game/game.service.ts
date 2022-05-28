@@ -7,6 +7,8 @@ export class GameService {
 
   games: Game[] = [];
 
+  
+
   findAll() :CreateGameDto [] {
     return this.games;
   }

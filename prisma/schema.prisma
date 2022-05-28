@@ -7,7 +7,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Table {
+model Game {
   id     String @id @default(uuid())
   number Int    @unique
 
