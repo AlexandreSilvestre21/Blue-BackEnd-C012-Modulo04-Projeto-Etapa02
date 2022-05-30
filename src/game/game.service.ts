@@ -7,7 +7,7 @@ export class GameService {
 
   games: Game[] = [];
 
-  
+
 
   findAll() :CreateGameDto [] {
     return this.games;
@@ -24,4 +24,5 @@ export class GameService {
   }
 
 }
+
 
